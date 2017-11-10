@@ -4,3 +4,5 @@
 !slushfile.js
 !slushfile.js.map
 !LICENSE
+!templates
+!templates/*
