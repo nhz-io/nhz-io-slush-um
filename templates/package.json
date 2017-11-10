@@ -1,0 +1,40 @@
+{
+  "name": "@nhz.io/<%= pkgName %>",
+  "version": "<%= pkgVersion %>",
+  "description": "<%= pkgDescription %>",
+  "main": "index.js",
+  "scripts": {
+    "start": "coffee --watch README.litcoffee",
+    "test": "cake lint && coffee README.litcoffee",
+    "lint": "cake lint",
+    "build": "cake lint && cake build",
+    "prepublishOnly": "npm run build",
+    "prepack": "mv README.litcoffee README.md",
+    "postpack": "mv README.md README.litcoffee",
+    "pre-push": "npm test"
+  },
+  "author": "Ishi Ruy <dev@nhz.io>",
+  "homepage": "https://github.com/nhz-io/nhz-io-<%= pkgNameSlug %>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nhz-io/nhz-io-<%= pkgNameSlug %>.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nhz-io/nhz-io-<%= pkgNameSlug %>/issues"
+  },
+  "keywords": [
+    "nhz-io",
+    "nhz.io"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">= 8.x.x",
+    "npm": ">= 5.x.x"
+  },
+  "devDependencies": {
+    "cake": "^0.1.1",
+    "coffeelint": "^2.0.7",
+    "coffeescript": "^2.0.2",
+    "husky": "^0.14.3"
+  }
+}
