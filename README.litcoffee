@@ -60,7 +60,7 @@ slush @nhz.io/um
         {
           name: 'pkgVersion'
           message: 'Version?'
-          default: '1.0.0'
+          default: '0.0.0'
         }
         {
           type: 'confirm'
