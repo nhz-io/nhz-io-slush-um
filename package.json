@@ -27,7 +27,7 @@
         "prepublishOnly": "npm run build",
         "prepack": "mv README.litcoffee README.md",
         "postpack": "mv README.md README.litcoffee",
-        "pre-push": "npm test"
+        "prepush": "npm test"
     },
     "dependencies": {
         "camelcase": "^4.1.0",

@@ -3,6 +3,19 @@
 [![Travis Build][travis]](https://travis-ci.org/nhz-io/nhz-io-slush-um)
 [![NPM Version][npm]](https://www.npmjs.com/package/@nhz.io/slush-um)
 
+## Install
+
+```bash
+npm i -g slush @nhz.io/slush-um
+```
+
+## Usage
+```bash
+mkdir um && cd um
+
+slush @nhz.io/um
+```
+
 ## Imports
 
 > Builtins

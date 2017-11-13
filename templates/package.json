@@ -1,5 +1,5 @@
 {
-  "name": "@nhz.io/<%= pkgName %>",
+  "name": "@nhz.io/<%= pkgNameSlug %>",
   "version": "<%= pkgVersion %>",
   "description": "<%= pkgDescription %>",
   "main": "index.js",
@@ -11,7 +11,7 @@
     "prepublishOnly": "npm run build",
     "prepack": "mv README.litcoffee README.md",
     "postpack": "mv README.md README.litcoffee",
-    "pre-push": "npm test"
+    "prepush": "npm test"
   },
   "author": "Ishi Ruy <dev@nhz.io>",
   "homepage": "https://github.com/nhz-io/nhz-io-<%= pkgNameSlug %>",
