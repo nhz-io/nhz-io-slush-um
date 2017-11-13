@@ -100,7 +100,7 @@ slush @nhz.io/um
       ]
 
 
-## Version 1.0.3
+## Version 1.0.4
 
 ## License [MIT](LICENSE)
 
