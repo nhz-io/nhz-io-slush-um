@@ -10,8 +10,8 @@ npm i -S @nhz.io/<%= pkgNameSlug %>
 ```
 
 ## Usage
-```bash
-<%= pkgNameCamelCase %> = require('<%= pkgNameSlug %>')
+```js
+const <%= pkgNameCamelCase %> = require('@nhz.io/<%= pkgNameSlug %>')
 
 ...
 ```
