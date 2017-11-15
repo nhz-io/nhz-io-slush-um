@@ -15,21 +15,23 @@ const <%= pkgNameCamelCase %> = require('@nhz.io/<%= pkgNameSlug %>')
 
 ...
 ```
-## Imports
 
-    # Package body here
+## Literate Source
 
-## Exports
+    <%= pkgNameCamelCase %> = -> throw Error 'UNIMPLEMENTED'
+
+### Exports
 
     module.exports = <%= pkgNameCamelCase %>
 
 ## Tests
 
-    assert = require 'assert'
+    test = require 'tape'
 
-    # Tests here
+    test 'true', (t) ->
 
-    console.log 'pass'
+      t.plan 1
+      t.ok <%= pkgNameCamelCase %>()
 
 ## Version <%= pkgVersion %>
 
