@@ -4,7 +4,7 @@
   "description": "<%= pkgDescription %>",
   "main": "index.js",
   "scripts": {
-    "start": "npm test && chokidar README.litcoffee -c 'npm test'",
+    "start": "npm test; chokidar README.litcoffee -c 'npm test'",
     "test": "cake lint && coffeetape README.litcoffee | faucet",
     "lint": "cake lint",
     "build": "npm test && cake build",
