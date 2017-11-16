@@ -27,7 +27,7 @@ const <%= pkgNameCamelCase %> = require('@nhz.io/<%= pkgNameSlug %>')
 ## Tests
 
     tape = require 'tape'
-    tapePromise = (require 'tape-promise').default require
+    tapePromise = (require 'tape-promise').default
     test = tapePromise tape
 
     test '<%= pkgNameCamelCase %>()', (t) ->
