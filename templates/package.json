@@ -39,6 +39,6 @@
     "coffeescript": "^2.0.2",
     "faucet": "0.0.1",
     "husky": "^0.14.3",
-    "tape-promise": "^2.0.1"
+    "tape-async": "^2.3.0"
   }
 }

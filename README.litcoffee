@@ -15,7 +15,7 @@
 * [coffeelint]
 * [coffeetape]
 * [faucet]
-* [tape-promise]
+* [tape-async]
 * [chokidar-cli]
 * [husky]
 >
@@ -130,6 +130,6 @@ slush @nhz.io/um
 [coffeelint]: https://github.com/clutchski/coffeelint
 [coffeetape]: https://github.com/nhz-io/coffeetape
 [faucet]: https://github.com/substack/faucet
-[tape-promise]: https://github.com/jprichardson/tape-promise
+[tape-async]: https://github.com/parro-it/tape-async
 [chokidar-cli]: https://github.com/kimmobrunfeldt/chokidar-cli
 [husky]: https://github.com/typicode/husky
