@@ -3,6 +3,24 @@
 [![Travis Build][travis]](https://travis-ci.org/nhz-io/nhz-io-slush-um)
 [![NPM Version][npm]](https://www.npmjs.com/package/@nhz.io/slush-um)
 
+## You get:
+
+* **TDD Dev environment configured for tiny packages**
+* **Literate Coffeescript template to start with (README.litcoffee)**
+>
+* `npm start` - to start TDD
+* `npm build`
+>
+* [coffeescript 2]
+* [coffeelint]
+* [coffeetape]
+* [faucet]
+* [tape-promise]
+* [chokidar-cli]
+* [husky]
+>
+* `.travis.yml` for scoped publish (public) - just set `NPM_AUTH_TOKEN`
+
 ## Install
 
 ```bash
@@ -102,8 +120,16 @@ slush @nhz.io/um
       ]
 
 
-## Version 1.1.2
+## Version 1.1.3
 ## License [MIT](LICENSE)
 
 [travis]: https://img.shields.io/travis/nhz-io/nhz-io-slush-um.svg?style=flat
 [npm]: https://img.shields.io/npm/v/@nhz.io/slush-um.svg?style=flat
+
+[coffeescript 2]: https://github.com/jashkenas/coffeescript
+[coffeelint]: https://github.com/clutchski/coffeelint
+[coffeetape]: https://github.com/nhz-io/coffeetape
+[faucet]: https://github.com/substack/faucet
+[tape-promise]: https://github.com/jprichardson/tape-promise
+[chokidar-cli]: https://github.com/kimmobrunfeldt/chokidar-cli
+[husky]: https://github.com/typicode/husky
