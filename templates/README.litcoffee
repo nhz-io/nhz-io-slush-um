@@ -26,11 +26,14 @@ const <%= pkgNameCamelCase %> = require('@nhz.io/<%= pkgNameSlug %>')
 
 ## Tests
 
-    test = require 'tape'
+    tape = require 'tape'
+    tapePromise = (require 'tape-promise').default require
+    test = tapePromise tape
 
-    test 'true', (t) ->
+    test '<%= pkgNameCamelCase %>()', (t) ->
 
-      t.plan 1
+      await new Promise (resolve) -> setTimeout resolve, 100
+
       t.ok <%= pkgNameCamelCase %>()
 
 ## Version <%= pkgVersion %>
